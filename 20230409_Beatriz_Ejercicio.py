@@ -14,8 +14,8 @@ mensaje02 = "\nMuchas gracias, lo esperamos en una nueva oportunidad.\n\n*** FIN
 # Evaluación si las medidas que se van a ingresar son un triángulo rectángulo.
 print ("\nPara continuar con la ejecución de este programa debes confirmar si las medidas que se van a ingresar son de un triángulo rectángulo y son números enteros positivos.")
 confirmacion01 = input ("\n¿Confirmas que las medidas que vas ingresar son de un triángulo rectángulo y son números enteros positivos? S/N: ")
-confirmacion01 = confirmación_01.upper()
-if confirmación01 == "S":
+confirmacion01 = confirmacion01.upper()
+if confirmacion01 == "S":
   print ("\nSu respuesta ha sido 'SÍ'")
 else: 
   print ("\nSu respuesta no ha sido 'Sí'\n",mensaje02)
